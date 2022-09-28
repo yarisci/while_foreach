@@ -1,0 +1,33 @@
+ static void Main(string[] args)
+        {
+            /*
+           //while
+           //birden başlayarak consoldan girilen sayıya kadar ortalama hesaplama consola yazdıran program
+            Console.WriteLine("lütfen bir sayı giriniz");
+           int sayi=int.Parse(Console.ReadLine());
+           int sayac=1;
+           int toplam=0;
+           while (sayac<=sayi)
+           {
+            toplam+=sayac;
+            sayac ++;
+           }
+           Console.WriteLine(toplam/sayi);
+
+           //a'dan z'ye kadar tüm harfleri konsola yazdır
+           char karakter='a';
+           while (karakter<='z')
+           {
+             
+            Console.Write(karakter);
+           karakter++;
+           }
+           Console.Write("***********Foreach******"); */
+
+           string[] arabalar={"bmw","ford" ,"toyota","Nissan"};
+           foreach (var araba in arabalar)
+           {
+            Console.WriteLine(araba);
+           }
+
+        }
